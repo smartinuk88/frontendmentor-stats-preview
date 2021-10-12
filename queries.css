@@ -1,0 +1,54 @@
+/* 1240px */
+@media (max-width: 77.5em) {
+  .card {
+    width: 85%;
+  }
+}
+
+/* 1088px */
+@media (max-width: 68em) {
+  html {
+    font-size: 56.25%;
+  }
+  */ .card-text-box {
+    padding: 6.4rem 4.8rem;
+  }
+}
+
+/* 916px */
+@media (max-width: 57.5rem) {
+  .card-text-box {
+    padding: 4.8rem 3.2rem;
+  }
+}
+
+/* 820px */
+@media (max-width: 52rem) {
+  .card {
+    grid-template-columns: 1fr;
+    text-align: center;
+    width: 35rem;
+    margin: 8rem auto;
+  }
+
+  .card-text-box {
+    padding: 3.2rem 2.5rem;
+  }
+
+  .card-paragraph {
+    margin-bottom: 4.8rem;
+  }
+
+  .card-img-box {
+    grid-row: 1/2;
+  }
+
+  .card-img {
+    content: url(images/image-header-mobile.jpg);
+  }
+
+  .data-container {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+}
